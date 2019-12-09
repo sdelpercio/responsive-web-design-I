@@ -49,7 +49,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
-    border: 1px solid teal;
 }
 
 html, body {
