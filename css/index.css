@@ -203,8 +203,70 @@ address {
     #features-img img {
         max-width: 100%;
     }
-    
-    
 }
+@media (max-width: 500px) {
+    #navbar {
+        height: 90vh;
+        justify-content: space-around;
+    }
+    #navbar nav {
+        flex-direction: column;
+        justify-contenet: space-around;
+        align-items: center;
+        font-size: 30px;
+        
+    }
+    nav a {
+        margin: 2% 0%;
+        padding-bottom: 2%;
+        border-bottom: 1px solid black;
+    }
+    #navbar img {
+        width: 30%;
+        height: auto;
+        border-bottom: 1px solid black;
+    }
+    #heading-text p {
+        font-size: 20px;
+    }
+    .big-container1 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 40vh;
+    }
+    .big-container2 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 60vh;
+    }
+    .small-container-top {
+        width: 100%;
+    }
+    .small-container-top h3, .small-container-bot h3 {
+        font-size: 25px;
+    }
+    .small-container-top p, .small-container-bot p {
+        font-size: 20px;
+    }
+    .small-container-bot {
+        width: 100%;
+    }
+    #features-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #contact h4 {
+        font-size: 25px;
+    }
+    #contact address {
+        font-size: 20px;
+    }
+    #copyright {
+        font-size: 20px;
+    }
 
+}
 
